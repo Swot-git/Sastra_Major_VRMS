@@ -1,0 +1,51 @@
+.placement-result-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placement-result-paper {
+    padding: 16px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    width: 550px;
+}
+
+.placement-result-container {
+    padding: 10px;
+}
+
+.filter-container {
+    display: flex;
+    gap: 16px; /* Adjust the gap as needed */
+  }
+
+  .time-filter {
+    flex: 1;
+  }
+  
+  .month-filter {
+    flex: 1;
+  }
+
+
+  .custom-form-control .MuiInputBase-root {
+    height: 40px; /* Adjust the height as needed */
+  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .time-filter {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .month-filter {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  
